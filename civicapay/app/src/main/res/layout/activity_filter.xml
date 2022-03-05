@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".filter"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="¿A donde te gustaria ir hoy?"
+        android:textSize="30dp"
+        android:background="#45E14B"
+        android:gravity="center"
+        android:textColor="#FFF">
+
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/cbbiblioteca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biblioteca"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/cbcoworking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoWorking"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/cbccomerciales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Centros Comerciales"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/cbcafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cafe Internet"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/cbparques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parques"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/cbuniversidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Universidades"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp">
+
+    </CheckBox>
+
+    <CheckBox
+    android:id="@+id/cball"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="TODOS"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp">
+
+</CheckBox>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Buscar"
+        android:gravity="center"
+        android:backgroundTint="#45E14B">
+
+    </Button>
+
+
+
+
+
+
+
+
+</LinearLayout>

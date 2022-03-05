@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reservar"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESERVA"
+        android:background="#3ED544"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Nombre :"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/etnombreR"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Telefono :"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/ettelefonoR"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Numero de Personas :"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnfecha"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="FECHA">
+
+        </Button>
+
+        <EditText
+            android:id="@+id/etfechaR"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnhora"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="HORA">
+
+        </Button>
+
+        <EditText
+            android:id="@+id/ethoraR"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:text="RESERVAR"
+        android:backgroundTint="#39C83F">
+
+    </Button>
+
+</LinearLayout>
